@@ -163,10 +163,14 @@
 .forboxthree:hover .foriconthree i {
   color: #ffff;
 }
-.forboxone:hover.forboxone h1 {
+.forboxone:hover.forboxone h1,
+.forboxtow:hover.forboxtow h1,
+.forboxthree:hover.forboxthree h1 {
   color: #ffff;
 }
-.forboxone:hover.forboxone p {
+.forboxone:hover.forboxone p,
+.forboxtow:hover.forboxtow p,
+.forboxtow:hover.forboxtow p {
   color: #ffff;
 }
 .foriconthree {
@@ -244,7 +248,7 @@
 }
 .forboxfour:hover,
 .wholebox:hover {
-  margin: 30px 0px 0px 0px;
+  margin: 20px 0px 0px 0px;
   transition: 0.3s all ease-in-out;
 }
 .forimgthree {
