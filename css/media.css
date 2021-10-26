@@ -1,0 +1,203 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1440px to higher resolution desktops
+*/
+
+@media (min-width: 1440px) {
+  /* CSS */
+}
+
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 1025px to 1199px
+  */
+
+@media (min-width: 1025px) and (max-width: 1199px) {
+  /* CSS */
+}
+
+/* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 992px to 1024px
+  */
+
+@media (min-width: 992px) and (max-width: 1024px) and (orientation: landscape) {
+  /* CSS */
+}
+
+/* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 991px
+  */
+
+@media (min-width: 768px) and (max-width: 991px) and (orientation: landscape) {
+  /* CSS */
+}
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 576px to 767px
+  */
+
+@media (min-width: 576px) and (max-width: 767px) {
+  /* CSS */
+}
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 575px
+  */
+
+@media (min-width: 481px) and (max-width: 575px) {
+  /* CSS */
+}
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 425px to 480px
+  */
+
+@media (min-width: 425px) and (max-width: 480px) {
+  /* CSS */
+}
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 0px to 424px
+  */
+
+@media (min-width: 0px) and (max-width: 424px) {
+  .headerone h1 {
+    text-align: center;
+  }
+  .bannerone h1 {
+    font-size: 40px;
+  }
+  .towcont h1 {
+    font-size: 20px;
+  }
+  .btn-one,
+  .btn-tow {
+    font-size: 14px;
+    padding: 8px 20px 8px 20px;
+  }
+  .services {
+    padding: 45px 0px 70px 0px;
+  }
+
+  .bannertow {
+    padding: 80px 0px 470px 0px;
+  }
+  .bannertow h3 {
+    font-size: 15px;
+    padding: 0px 0px 10px 0px;
+  }
+  .forrotatebox {
+    height: 50px;
+    width: 90px;
+    margin: 0px 0px 0px 12px;
+  }
+  .towitems h1 {
+    font-size: 18px;
+  }
+  .bannertow ul li {
+    padding: 30px 0px 0px 0px;
+  }
+  .icons1,
+  .icons2,
+  .icons3,
+  .icons4,
+  .icons5,
+  .icons6 {
+    height: 25px;
+    width: 25px;
+  }
+  .icons1 i,
+  .icons2 i,
+  .icons3 i,
+  .icons4 i,
+  .icons5 i,
+  .icons6 i {
+    font-size: 10px;
+  }
+  .iconscont1 h1,
+  .iconscont2 h1,
+  .iconscont3 h1,
+  .iconscont4 h1,
+  .iconscont5 h1,
+  .iconscont6 h1 {
+    font-size: 10px;
+    margin: 12px 0px 0px 0px;
+  }
+  .iconscont1,
+  .iconscont2,
+  .iconscont3,
+  .iconscont4,
+  .iconscont5,
+  .iconscont6 {
+    top: 3%;
+    left: 15%;
+    transform: translate(-15%, -3%);
+  }
+  .iconscont2 {
+    top: 3%;
+    left: 85%;
+    transform: translate(-85%, -3%);
+  }
+  .iconscont3 {
+    top: 9%;
+    left: -3%;
+    transform: translate(3%, -9%);
+  }
+  .iconscont4 {
+    top: 9%;
+    right: 150%;
+    transform: translate(150%, -9%);
+  }
+  .iconscont5 {
+    top: 14.5%;
+    left: 15%;
+    transform: translate(-15%, -14.5%);
+  }
+  .iconscont6 {
+    top: 14.5%;
+    left: 85%;
+    transform: translate(-85%, -14.5%);
+  }
+  .singlecont {
+    padding: 60px 0px 40px 0px;
+  }
+  .starimg {
+    margin: 60px 0px 70px 0px;
+    text-align: center;
+  }
+  .starimg img {
+    width: 50%;
+    margin: auto;
+  }
+  .forbottom {
+    padding: 70px 0px 0px 0px;
+  }
+  .justpadd {
+    padding: 0px 0px 0px 0px;
+  }
+  .owl-nav .owl-prev span {
+    left: 5%;
+    transform: translate(-5%, -0%);
+  }
+  .footerone {
+    padding: 60px 0px 0px 0px;
+  }
+  .social ul {
+    width: 60%;
+  }
+  .upcont {
+    padding: 40px 0px 15px 0px;
+  }
+  .footertow h1 {
+    text-align: center;
+  }
+  .listtow {
+    display: none;
+  }
+}
