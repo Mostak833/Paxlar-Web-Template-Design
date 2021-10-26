@@ -242,9 +242,9 @@
   margin: 40px 0px 0px 0px;
   box-shadow: -3px -3px 4px 2px #212529;
 }
-.forboxfour:hover {
+.forboxfour:hover,
+.wholebox:hover {
   margin: 30px 0px 0px 0px;
-  border-radius: 25px;
   transition: 0.3s all ease-in-out;
 }
 .forimgthree {
@@ -559,10 +559,6 @@
   position: relative;
   margin: 40px 0px 0px 0px;
   box-shadow: -3px -3px 4px 2px #212529;
-}
-.wholebox:hover {
-  margin: 30px 0px 0px 0px;
-  transition: 0.3s all ease-in-out;
 }
 .threeitems {
   display: flex;
