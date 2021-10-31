@@ -152,7 +152,7 @@
   .forrotatebox {
     margin: 0px 0px 0px 10px;
     height: 45px;
-    width: 70px;
+    width: 60px;
   }
   .bannertow ul li {
     padding: 40px 0px 0px 0px;
@@ -173,7 +173,7 @@
   }
   /* ///////////////////////////////////////////// */
   .starimg {
-    margin: 0px 0px 0px 0px;
+    margin: 15px 0px 0px 0px;
   }
   .starimg img {
     width: 50%;
@@ -244,6 +244,10 @@
   .justpadd {
     padding: 0px 0px 20px 0px;
   }
+  .oneitems {
+    top: 53%;
+    transform: translateY(53%);
+  }
   .singlepadd {
     padding: 115px 0px 0px 0px;
   }
@@ -256,6 +260,11 @@
   .paddpadd {
     padding: 45px 0px 30px 0px;
   }
+  .quotetion {
+    top: 54%;
+    transform: translate(-70%, -54%);
+  }
+  /* //////////////////////////////////////////// */
   .footerone {
     padding: 40px 0px 0px 0px;
   }
@@ -340,7 +349,7 @@
     font-size: 28px;
   }
   .towcont h1 {
-    font-size: 22px;
+    font-size: 17px;
   }
   .btn-one,
   .btn-tow {
@@ -463,11 +472,10 @@
   .justpadd {
     padding: 0px 0px 20px 0px;
   }
-  .oneitems,
-  .quotetion,
   .errow {
-    top: 48%;
-    transform: translateY(48%);
+    left: 100%;
+    top: 100%;
+    transform: translate(-100%, -101%);
   }
   .singlepadd {
     padding: 115px 0px 0px 0px;
