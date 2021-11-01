@@ -62,6 +62,9 @@
   color: #ff9b1a;
   border: 2px solid #ff9b1a;
 }
+.join-btn-mb {
+  display: none;
+}
 .btn-join,
 .join-btn-mb {
   font-size: 14px;
@@ -69,7 +72,7 @@
   color: #ffff;
   font-weight: 600;
   background-color: #ff9b1a;
-  margin: 5px 0px 3px 10px;
+  margin: 0px 0px 0px 10px;
   border: 2px solid transparent;
   border-radius: 30px;
 }
@@ -102,8 +105,6 @@
   justify-content: space-around;
   width: 90%;
   margin: auto;
-}
-.towcont {
 }
 .towcont h1 {
   font-size: 20px;
@@ -248,20 +249,19 @@
   border-radius: 25px;
   margin: 40px 0px 0px 0px;
   box-shadow: -3px -3px 4px 2px #6a6b6b;
-}
-.forboxfour:hover,
-.wholebox:hover {
-  margin: 20px 0px 0px 0px;
   transition: 0.3s all ease-in-out;
+}
+.forboxfour:hover {
+  margin: 20px 0px 0px 0px;
 }
 .forimgthree {
   text-align: center;
-
   padding: 40px 0px 15px 0px;
 }
 .forboxfour h1 {
   color: #161616;
   font-size: 25px;
+  font-weight: 600;
   padding: 10px 0px 20px 0px;
   margin: 0px 0px 0px 0px;
 }
@@ -304,8 +304,7 @@
   bottom: 0;
 }
 .foriphone img {
-  width: 95%;
-  left: 5%;
+  width: 100%;
 }
 .bannertow h3 {
   color: #ffff;
@@ -333,7 +332,7 @@
 }
 .forrotatebox {
   height: 50px;
-  width: 55px;
+  width: 60px;
   border: 2px solid #ff9b1a;
   border-radius: 5px;
   transform: rotate(45deg);
@@ -453,14 +452,14 @@
   transform: translate(-78%, -76%);
 }
 .iconscont5 {
-  top: 130%;
+  top: 135%;
   left: 32%;
-  transform: translate(-32%, -130%);
+  transform: translate(-32%, -135%);
 }
 .iconscont6 {
-  top: 130%;
+  top: 135%;
   left: 68%;
-  transform: translate(-68%, -130%);
+  transform: translate(-68%, -135%);
 }
 .starimg {
   margin: 100px 0px 0px 0px;
@@ -474,7 +473,7 @@
   padding: 180px 0px 0px 0px;
 }
 .forbottom {
-  padding: 120px 0px 0px 0px;
+  padding: 80px 0px 0px 0px;
   text-align: center;
 }
 .forbottom h1 {
@@ -562,12 +561,24 @@
 .justpadd {
   padding: 0px 0px 80px 0px;
 }
-.wholebox {
-  border: 1px solid transparent;
+.wholeboxone,
+.wholeboxtow,
+.wholeboxthree {
+  background-image: url(../images/Paxlar13.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 320px auto;
   border-radius: 10px;
   position: relative;
-  margin: 40px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
   box-shadow: -3px -3px 4px 2px #212529;
+  transition: 0.3s all ease-in-out;
+}
+.wholeboxtow {
+  background-image: url(../images/Paxlar14.png);
+}
+.wholeboxthree {
+  background-image: url(../images/Paxlar15.png);
 }
 .threeitems {
   display: flex;
@@ -601,21 +612,22 @@
 .threeitems h1 {
   font-size: 15px;
   font-weight: 300;
-  margin: 0px 0px 0px 0px;
+  margin: 280px 0px 0px 0px;
 }
 .threeitems h2 {
   font-size: 15px;
   font-weight: 300;
-  margin: 0px 0px 0px 0px;
+  margin: 280px 0px 0px 0px;
 }
 .justcont h1 {
   font-size: 18px;
   font-weight: 500;
-  margin: 30px 20px 0px 20px;
+  margin: 0px 20px 0px 20px;
 }
 .justcont p {
   font-size: 12px;
   font-weight: 400;
+  padding: 0px 0px 30px 0px;
   margin: 20px 20px 30px 20px;
 }
 .forposition {
@@ -627,9 +639,14 @@
 }
 .quotetion {
   background-color: #ff9b1a;
+  height: 30px;
+  width: 30px;
   top: 45%;
   left: 70%;
   transform: translate(-70%, -45%);
+}
+.quotetion i {
+  font-size: 10px;
 }
 .frofile h1 {
   font-size: 22px;
@@ -642,6 +659,11 @@
   text-transform: uppercase;
   padding: 0px 0px 20px 0px;
   margin: 0px 0px 50px 0px;
+}
+.owl-carousel .owl-item img {
+  display: block;
+  width: 52%;
+  margin: auto;
 }
 .owl-nav .owl-prev span,
 .owl-nav .owl-next span {
@@ -726,10 +748,10 @@
   left: 0;
   width: 0%;
   height: 3px;
+  transition: 0.3s all ease-in-out;
 }
 .footerone:hover .upcont span::after {
   width: 100%;
-  transition: 0.3s all ease-in-out;
   background-color: #ff9b1a;
 }
 .towitem {
@@ -787,7 +809,7 @@
 }
 .emailbox input {
   width: 100%;
-  padding: 10px 10px 8px 10px;
+  padding: 9px 10px 10px 10px;
   margin: 0px 0px 0px 0px;
   border-radius: 30px;
   border: transparent;
@@ -816,3 +838,4 @@
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
 }
+/* ////////////////////////////////////////// */
