@@ -10,7 +10,7 @@
   }
   .forrotatebox {
     height: 50px;
-    width: 55px;
+    width: 50px;
   }
   .wholeboxone,
   .wholeboxtow,
@@ -42,173 +42,586 @@
 
 /* 
   ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 1200px to 1399.98px
-*/
-
-@media (min-width: 1200px) and (max-width: 1399.98px) {
-  /* CSS */
-}
-/* 
-  ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 1025px to 1199px
+  ##Screen = B/w 1025px to 1199.98px
 */
 
 @media (min-width: 1025px) and (max-width: 1199.98px) {
-  .listone ul {
-    width: 75%;
-    margin-left: auto;
+  .headerone h1 {
+    font-size: 14px;
+  }
+  .listone ul li a,
+  .listtow ul li a {
+    font-size: 14px;
+  }
+  .navbar-light .navbar-brand {
+    color: unset;
+    width: 65%;
+  }
+  .btn-join {
+    display: inherit;
   }
   .join-btn-mb {
     display: none;
   }
-  .navbar-light .navbar-nav .nav-link {
-    font-size: 14px;
-    padding: 3px 6px 3px 6px;
+  .join-btn-mb {
+    font-size: 10px;
+    margin: 5px 0px 3px 60px;
+    border: 2px solid transparent;
+    border-radius: 30px;
   }
-  .btn-join {
-    font-size: 14px;
-    margin: 0px 0px 0px 10px;
+  .navbar-light .navbar-toggler {
+    color: #000;
+    border-color: rgba(0, 0, 0, 0.5);
+  }
+  .navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
   }
   .bannerone h1 {
-    font-size: 55px;
+    font-size: 42px;
+  }
+  .forboxone h1,
+  .forboxtow h1,
+  .forboxthree h1,
+  .forboxfour h1 {
+    color: #161616;
+    font-size: 20px;
+    padding: 0px 0px 15px 0px;
+    margin: 0px 0px 0px 0px;
+  }
+  .forboxone p,
+  .forboxtow p,
+  .forboxthree p,
+  .forboxfour p {
+    padding: 0px 22px 25px 22px;
   }
   .towcont h1 {
-    font-size: 24px;
+    font-size: 18px;
+  }
+  .btn-one,
+  .btn-tow {
+    font-size: 14px;
+    padding: 6px 20px 6px 20px;
+  }
+  .services {
+    padding: 35px 0px 80px 0px;
+  }
+  .foriphone {
+    position: absolute;
+    text-align: center;
   }
   .foriphone img {
-    width: 85%;
-  }
-  .bannertow ul li {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 25px 0px 0px 0px;
-  }
-  .forrotatebox {
-    height: 50px;
-    width: 78px;
+    width: 72%;
   }
   .bannertow {
-    padding: 80px 0px 70px 0px;
+    padding: 70px 0px 50px 0px;
   }
-  .forbottom {
-    padding: 50px 0px 0px 0px;
+  .bannertow h3 {
+    margin: 30px 0px 0px 0px;
   }
-  .threeitems h1 {
-    margin: 210px 0px 0px 0px;
+  .forrotatebox {
+    margin: 0px 0px 0px 10px;
+    height: 45px;
+    width: 65px;
   }
-  .threeitems h2 {
-    margin: 210px 0px 0px 0px;
+  .bannertow ul li {
+    padding: 40px 0px 0px 0px;
+  }
+  .towitems h1 {
+    font-size: 18px;
+  }
+  .towitems p {
+    font-size: 12px;
+    margin: 0px 0px 0px 0px;
+  }
+  .number h1 {
+    font-size: 50px;
+  }
+  .number p {
+    font-size: 14px;
+  }
+  .ourteem {
+    margin-top: 40px;
+  }
+  .starimg {
+    margin: 20px 0px 0px 0px;
+  }
+  .starimg img {
+    width: 80%;
+  }
+  .icons1,
+  .icons2,
+  .icons3,
+  .icons4,
+  .icons5,
+  .icons6 {
+    height: 30px;
+    width: 30px;
+  }
+  .icons1 i,
+  .icons2 i,
+  .icons3 i,
+  .icons4 i,
+  .icons5 i,
+  .icons6 i {
+    font-size: 13px;
+  }
+  .iconscont1 h1,
+  .iconscont2 h1,
+  .iconscont3 h1,
+  .iconscont4 h1,
+  .iconscont5 h1,
+  .iconscont6 h1 {
+    font-size: 14px;
+    margin: 8px 0px 0px 0px;
+  }
+  .iconscont1,
+  .iconscont2,
+  .iconscont3,
+  .iconscont4,
+  .iconscont5,
+  .iconscont6 {
+    width: 20%;
+    top: 13%;
+    left: 31%;
+    transform: translate(-31%, -13%);
+  }
+  .iconscont2 {
+    top: 13%;
+    left: 69%;
+    transform: translate(-69%, -13%);
+  }
+  .iconscont3 {
+    top: 74%;
+    left: 25%;
+    transform: translate(-25%, -74%);
+  }
+  .iconscont4 {
+    top: 75%;
+    left: 75%;
+    transform: translate(-75%, -75%);
+  }
+  .iconscont5 {
+    top: 128%;
+    left: 31%;
+    transform: translate(-31%, -128%);
+  }
+  .iconscont6 {
+    top: 128%;
+    left: 69%;
+    transform: translate(-69%, -128%);
+  }
+  .our-team {
+    padding: 105px 0px 0px 0px;
+  }
+  .singlecontnoe,
+  .singlecontthree,
+  .singlecontfour {
+    padding: 80px 0px 40px 0px;
+  }
+  .singleconttow {
+    padding: 80px 0px 0px 0px;
   }
   .wholeboxone,
   .wholeboxtow,
   .wholeboxthree {
-    background-size: 245px auto;
+    background-size: 270px auto;
   }
   .oneitems {
-    top: 40%;
+    top: 57%;
     left: 5%;
-    transform: translateY(40%);
+    transform: translateY(-57%);
+  }
+  .threeitems h1 {
+    margin: 230px 0px 0px -20px;
+    font-size: 20px;
+  }
+  .threeitems h2 {
+    margin: 234px 15px 0px 0px;
+  }
+  .threeitems {
+    width: 60%;
+    margin: 10px 20px 10px 90px;
+  }
+  .justcont h1 {
+    font-size: 17px;
+  }
+  .justcont p {
+    padding: 0px 0px 20px 0px;
+    margin: 15px 20px 30px 20px;
   }
   .owl-carousel .owl-item img {
-    width: 65%;
+    display: block;
+    width: 30%;
+    margin: auto;
   }
   .quotetion {
-    top: 50%;
-    left: 70%;
-    transform: translate(-70%, -50%);
+    height: 30px;
+    width: 30px;
+    top: 45%;
+    left: 63%;
+    transform: translate(-63%, -45%);
+  }
+  .quotetion i {
+    font-size: 10px;
+  }
+  .frofile h1 {
+    font-size: 20px;
+    color: #161616;
+    padding: 15px 0px 0px 0px;
+  }
+  .frofile p {
+    font-size: 14px;
+  }
+  .errow {
+    top: 99%;
+    left: 99%;
+    transform: translate(-99%, -98%);
+  }
+  .singlepadd {
+    padding: 115px 0px 0px 0px;
+  }
+  .forbottom {
+    padding: 75px 0px 0px 0px;
+  }
+  .singlecont {
+    padding: 120px 0px 30px 0px;
+  }
+  .paddpadd {
+    padding: 45px 0px 30px 0px;
+  }
+  .footerone {
+    padding: 40px 0px 0px 0px;
+  }
+  .footerone img {
+    padding: 0px 0px 15px 0px;
+  }
+  .footerone p {
+    font-size: 14px;
   }
   .social ul {
+    width: 80%;
+    margin: unset;
+  }
+  .social ul li a {
+    width: 35px;
+    height: 35px;
+  }
+  .upcont {
+    padding: 0px 0px 20px 0px;
+  }
+  .towitem {
+    display: flex;
+    margin: 0px 0px 10px 0px;
+  }
+  .call h1 {
+    font-size: 12px;
+  }
+  .listtow ul {
+    display: none;
+  }
+  .footertow h1 {
+    font-size: 15px;
+    text-align: start;
+  }
+  .emailbox input {
     width: 100%;
   }
-  .listtow ul li {
-    margin: 0px 10px 0px 0px;
-  }
 }
-
 /* 
   ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 992px to 1024px
+  ##Screen = B/w 992px to 1024.98px
 */
 
-@media (min-width: 992px) and (max-width: 1024px) and (orientation: landscape) {
-  .listone ul {
-    width: 75%;
-    margin-left: auto;
+@media (min-width: 992px) and (max-width: 1024.98px) {
+  .headerone h1 {
+    font-size: 14px;
+  }
+  .listone ul li a,
+  .listtow ul li a {
+    font-size: 14px;
+  }
+  .navbar-light .navbar-brand {
+    color: unset;
+    width: 65%;
+  }
+  .btn-join {
+    display: inherit;
   }
   .join-btn-mb {
     display: none;
   }
-  .navbar-light .navbar-nav .nav-link {
-    font-size: 14px;
-    padding: 3px 6px 3px 6px;
+  .join-btn-mb {
+    font-size: 10px;
+    margin: 5px 0px 3px 60px;
+    border: 2px solid transparent;
+    border-radius: 30px;
   }
-  .btn-join {
-    font-size: 14px;
-    margin: 0px 0px 0px 10px;
+  .navbar-light .navbar-toggler {
+    color: #000;
+    border-color: rgba(0, 0, 0, 0.5);
+  }
+  .navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
   }
   .bannerone h1 {
-    font-size: 55px;
+    font-size: 42px;
+  }
+  .forboxone h1,
+  .forboxtow h1,
+  .forboxthree h1,
+  .forboxfour h1 {
+    color: #161616;
+    font-size: 20px;
+    padding: 0px 0px 15px 0px;
+    margin: 0px 0px 0px 0px;
+  }
+  .forboxone p,
+  .forboxtow p,
+  .forboxthree p,
+  .forboxfour p {
+    padding: 0px 22px 25px 22px;
   }
   .towcont h1 {
-    font-size: 24px;
+    font-size: 18px;
+  }
+  .btn-one,
+  .btn-tow {
+    font-size: 14px;
+    padding: 6px 20px 6px 20px;
+  }
+  .services {
+    padding: 35px 0px 80px 0px;
+  }
+  .foriphone {
+    position: absolute;
+    text-align: center;
   }
   .foriphone img {
-    width: 85%;
-  }
-  .bannertow ul li {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 25px 0px 0px 0px;
-  }
-  .forrotatebox {
-    height: 50px;
-    width: 78px;
+    width: 72%;
   }
   .bannertow {
-    padding: 80px 0px 70px 0px;
+    padding: 70px 0px 50px 0px;
   }
-  .forbottom {
-    padding: 50px 0px 0px 0px;
+  .bannertow h3 {
+    margin: 30px 0px 0px 0px;
   }
-  .threeitems h1 {
-    margin: 210px 0px 0px 0px;
+  .forrotatebox {
+    margin: 0px 0px 0px 10px;
+    height: 45px;
+    width: 65px;
   }
-  .threeitems h2 {
-    margin: 210px 0px 0px 0px;
+  .bannertow ul li {
+    padding: 40px 0px 0px 0px;
+  }
+  .towitems h1 {
+    font-size: 18px;
+  }
+  .towitems p {
+    font-size: 12px;
+    margin: 0px 0px 0px 0px;
+  }
+  .number h1 {
+    font-size: 50px;
+  }
+  .number p {
+    font-size: 14px;
+  }
+  .ourteem {
+    margin-top: 40px;
+  }
+  .starimg {
+    margin: 20px 0px 0px 0px;
+  }
+  .starimg img {
+    width: 80%;
+  }
+  .icons1,
+  .icons2,
+  .icons3,
+  .icons4,
+  .icons5,
+  .icons6 {
+    height: 30px;
+    width: 30px;
+  }
+  .icons1 i,
+  .icons2 i,
+  .icons3 i,
+  .icons4 i,
+  .icons5 i,
+  .icons6 i {
+    font-size: 13px;
+  }
+  .iconscont1 h1,
+  .iconscont2 h1,
+  .iconscont3 h1,
+  .iconscont4 h1,
+  .iconscont5 h1,
+  .iconscont6 h1 {
+    font-size: 14px;
+    margin: 8px 0px 0px 0px;
+  }
+  .iconscont1,
+  .iconscont2,
+  .iconscont3,
+  .iconscont4,
+  .iconscont5,
+  .iconscont6 {
+    width: 20%;
+    top: 13%;
+    left: 31%;
+    transform: translate(-31%, -13%);
+  }
+  .iconscont2 {
+    top: 13%;
+    left: 69%;
+    transform: translate(-69%, -13%);
+  }
+  .iconscont3 {
+    top: 74%;
+    left: 25%;
+    transform: translate(-25%, -74%);
+  }
+  .iconscont4 {
+    top: 75%;
+    left: 75%;
+    transform: translate(-75%, -75%);
+  }
+  .iconscont5 {
+    top: 128%;
+    left: 31%;
+    transform: translate(-31%, -128%);
+  }
+  .iconscont6 {
+    top: 128%;
+    left: 69%;
+    transform: translate(-69%, -128%);
+  }
+  .our-team {
+    padding: 105px 0px 0px 0px;
+  }
+  .singlecontnoe,
+  .singlecontthree,
+  .singlecontfour {
+    padding: 80px 0px 40px 0px;
+  }
+  .singleconttow {
+    padding: 80px 0px 0px 0px;
   }
   .wholeboxone,
   .wholeboxtow,
   .wholeboxthree {
-    background-size: 245px auto;
+    background-size: 270px auto;
   }
   .oneitems {
-    top: 40%;
+    top: 57%;
     left: 5%;
-    transform: translateY(40%);
+    transform: translateY(-57%);
+  }
+  .threeitems h1 {
+    margin: 230px 0px 0px -20px;
+    font-size: 20px;
+  }
+  .threeitems h2 {
+    margin: 234px 15px 0px 0px;
+  }
+  .threeitems {
+    width: 60%;
+    margin: 10px 20px 10px 90px;
+  }
+  .justcont h1 {
+    font-size: 17px;
+  }
+  .justcont p {
+    padding: 0px 0px 20px 0px;
+    margin: 15px 20px 30px 20px;
   }
   .owl-carousel .owl-item img {
-    width: 65%;
+    display: block;
+    width: 30%;
+    margin: auto;
   }
   .quotetion {
-    top: 50%;
-    left: 70%;
-    transform: translate(-70%, -50%);
+    height: 30px;
+    width: 30px;
+    top: 45%;
+    left: 63%;
+    transform: translate(-63%, -45%);
+  }
+  .quotetion i {
+    font-size: 10px;
+  }
+  .frofile h1 {
+    font-size: 20px;
+    color: #161616;
+    padding: 15px 0px 0px 0px;
+  }
+  .frofile p {
+    font-size: 14px;
+  }
+  .errow {
+    top: 99%;
+    left: 99%;
+    transform: translate(-99%, -98%);
+  }
+  .singlepadd {
+    padding: 115px 0px 0px 0px;
+  }
+  .forbottom {
+    padding: 75px 0px 0px 0px;
+  }
+  .singlecont {
+    padding: 120px 0px 30px 0px;
+  }
+  .paddpadd {
+    padding: 45px 0px 30px 0px;
+  }
+  .footerone {
+    padding: 40px 0px 0px 0px;
+  }
+  .footerone img {
+    padding: 0px 0px 15px 0px;
+  }
+  .footerone p {
+    font-size: 14px;
   }
   .social ul {
-    width: 100%;
+    width: 80%;
+    margin: unset;
   }
-  .listtow ul li {
-    margin: 0px 10px 0px 0px;
+  .social ul li a {
+    width: 35px;
+    height: 35px;
+  }
+  .upcont {
+    padding: 0px 0px 20px 0px;
+  }
+  .towitem {
+    display: flex;
+    margin: 0px 0px 10px 0px;
+  }
+  .call h1 {
+    font-size: 12px;
+  }
+  .listtow ul {
+    display: none;
+  }
+  .footertow h1 {
+    font-size: 15px;
+    text-align: start;
+  }
+  .emailbox input {
+    width: 100%;
   }
 }
 
 /* 
   ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 768px to 991px
+  ##Screen = B/w 768px to 991.98px
 */
 
 @media (min-width: 768px) and (max-width: 991.98px) and (orientation: landscape) {
@@ -219,180 +632,276 @@
   .listtow ul li a {
     font-size: 14px;
   }
-  /* ////////////////////////////////////////// */
   .navbar-light .navbar-brand {
-    width: 70%;
+    color: unset;
+    width: 65%;
   }
   .btn-join {
     display: none;
   }
-  /* /////////////////////////////// */
+  .join-btn-mb {
+    display: inherit;
+  }
+  .join-btn-mb {
+    font-size: 10px;
+    margin: 5px 0px 3px 60px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+  }
+  .navbar-light .navbar-toggler {
+    color: #000;
+    border-color: rgba(0, 0, 0, 0.5);
+  }
+  .navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+  }
   .bannerone h1 {
     font-size: 42px;
   }
-  .towcont h1 {
-    font-size: 24px;
-  }
-  /* //////////////////////////////////////// */
   .forboxone h1,
   .forboxtow h1,
-  .forboxthree h1 {
-    font-size: 32px;
-  }
+  .forboxthree h1,
   .forboxfour h1 {
+    color: #161616;
     font-size: 20px;
+    padding: 0px 0px 15px 0px;
+    margin: 0px 0px 0px 0px;
   }
-  /* ///////////////////////////////////////// */
-  .bannertow {
-    padding: 80px 0px 50px 0px;
+  .forboxone p,
+  .forboxtow p,
+  .forboxthree p,
+  .forboxfour p {
+    padding: 0px 22px 25px 22px;
+  }
+  .towcont h1 {
+    font-size: 18px;
+  }
+  .btn-one,
+  .btn-tow {
+    font-size: 14px;
+    padding: 6px 20px 6px 20px;
+  }
+  .services {
+    padding: 35px 0px 80px 0px;
   }
   .foriphone {
     position: absolute;
-    bottom: 0;
-    left: 12%;
+    text-align: start;
   }
   .foriphone img {
-    width: 70%;
+    width: 78%;
   }
-
+  .bannertow {
+    padding: 70px 0px 50px 0px;
+  }
+  .bannertow h3 {
+    margin: 40px 0px 0px 0px;
+  }
   .forrotatebox {
-    height: 50px;
+    margin: 0px 0px 0px 10px;
+    height: 45px;
     width: 80px;
   }
   .bannertow ul li {
-    padding: 25px 0px 0px 0px;
+    padding: 40px 0px 0px 0px;
   }
   .towitems h1 {
-    color: #ffff;
-    font-size: 20px;
-  }
-  .starimg {
-    margin: 100px 0px 100px 0px;
+    font-size: 18px;
   }
   .towitems p {
-    color: #fff;
-    font-size: 10px;
-    padding: 0px 0px 0px 0px;
+    font-size: 12px;
     margin: 0px 0px 0px 0px;
   }
-  .forbottom {
-    padding: 0px 0px 0px 0px;
-    text-align: center;
-  }
-  .iconscont3 {
-    top: 66%;
-    left: 22%;
-    transform: translate(-22%, -66%);
-  }
-  .iconscont4 {
-    top: 66%;
-    left: 78%;
-    transform: translate(-78%, -66%);
-  }
-  .iconscont5 {
-    top: 100%;
-    left: 32%;
-    transform: translate(-32%, -100%);
-  }
-  .iconscont6 {
-    top: 100%;
-    left: 68%;
-    transform: translate(-68%, -100%);
-  }
-  /* //////////////////////////////////////// */
   .number h1 {
     font-size: 50px;
   }
   .number p {
-    font-size: 18px;
+    font-size: 14px;
   }
-  /* ///////////////////////////////////// */
+  .ourteem {
+    margin-top: 40px;
+  }
+  .starimg {
+    margin: 20px 0px 0px 0px;
+  }
+  .starimg img {
+    width: 100%;
+  }
+  .icons1,
+  .icons2,
+  .icons3,
+  .icons4,
+  .icons5,
+  .icons6 {
+    height: 30px;
+    width: 30px;
+  }
+  .icons1 i,
+  .icons2 i,
+  .icons3 i,
+  .icons4 i,
+  .icons5 i,
+  .icons6 i {
+    font-size: 13px;
+  }
+  .iconscont1 h1,
+  .iconscont2 h1,
+  .iconscont3 h1,
+  .iconscont4 h1,
+  .iconscont5 h1,
+  .iconscont6 h1 {
+    font-size: 14px;
+    margin: 8px 0px 0px 0px;
+  }
+  .iconscont1,
+  .iconscont2,
+  .iconscont3,
+  .iconscont4,
+  .iconscont5,
+  .iconscont6 {
+    width: 20%;
+    top: 15%;
+    left: 31%;
+    transform: translate(-31%, -15%);
+  }
+  .iconscont2 {
+    top: 15%;
+    left: 69%;
+    transform: translate(-69%, -15%);
+  }
+  .iconscont3 {
+    top: 74%;
+    left: 25%;
+    transform: translate(-25%, -74%);
+  }
+  .iconscont4 {
+    top: 75%;
+    left: 75%;
+    transform: translate(-75%, -75%);
+  }
+  .iconscont5 {
+    top: 128%;
+    left: 31%;
+    transform: translate(-31%, -128%);
+  }
+  .iconscont6 {
+    top: 128%;
+    left: 69%;
+    transform: translate(-69%, -128%);
+  }
+  .our-team {
+    padding: 105px 0px 0px 0px;
+  }
+  .singlecontnoe,
+  .singlecontthree,
+  .singlecontfour {
+    padding: 80px 0px 40px 0px;
+  }
+  .singleconttow {
+    padding: 80px 0px 0px 0px;
+  }
   .wholeboxone,
   .wholeboxtow,
   .wholeboxthree {
-    background-size: 175px auto;
+    background-size: 216px auto;
   }
   .oneitems {
-    width: 35px;
-    height: 35px;
-    top: 30%;
+    top: 47%;
     left: 5%;
-    transform: translateY(30%);
-  }
-  .threeitems {
-    margin: 10px 20px 0px 45px;
-    padding: 155px 0px 10px 0px;
+    transform: translateY(-47%);
   }
   .threeitems h1 {
-    font-size: 12px;
-    font-weight: 300;
-    margin: 0px 0px 0px 0px;
+    margin: 190px 0px 0px -20px;
+    font-size: 20px;
   }
   .threeitems h2 {
-    font-size: 12px;
-    font-weight: 300;
-    margin: 0px 0px 0px 0px;
+    margin: 194px 15px 0px 0px;
   }
   .justcont h1 {
     font-size: 17px;
   }
-  .singlecont {
-    text-align: center;
-    padding: 50px 0px 70px 0px;
+  .justcont p {
+    padding: 0px 0px 20px 0px;
+    margin: 15px 20px 30px 20px;
+  }
+  .owl-carousel .owl-item img {
+    display: block;
+    width: 30%;
+    margin: auto;
   }
   .quotetion {
-    top: 44%;
-    left: 70%;
-    transform: translateY(-44%);
+    height: 30px;
+    width: 30px;
+    top: 45%;
+    left: 63%;
+    transform: translate(-63%, -45%);
+  }
+  .quotetion i {
+    font-size: 10px;
   }
   .frofile h1 {
     font-size: 20px;
+    color: #161616;
+    padding: 15px 0px 0px 0px;
   }
   .frofile p {
-    font-size: 15px;
+    font-size: 14px;
   }
-  /* ///////////////////////////////////////// */
+  .errow {
+    top: 99%;
+    left: 99%;
+    transform: translate(-99%, -98%);
+  }
+  .singlepadd {
+    padding: 115px 0px 0px 0px;
+  }
+  .forbottom {
+    padding: 75px 0px 0px 0px;
+  }
+  .singlecont {
+    padding: 120px 0px 30px 0px;
+  }
+  .paddpadd {
+    padding: 45px 0px 30px 0px;
+  }
+  .footerone {
+    padding: 40px 0px 0px 0px;
+  }
   .footerone img {
-    padding: 0px 0px 30px 0px;
+    padding: 0px 0px 15px 0px;
   }
   .footerone p {
-    font-size: 13px;
+    font-size: 14px;
   }
   .social ul {
     width: 100%;
+    margin: auto;
   }
   .social ul li a {
-    width: 30px;
-    height: 30px;
-  }
-  .call h1 {
-    font-size: 11px;
-  }
-  .quick ul li a {
-    font-size: 12px;
-  }
-  .news ul li {
-    font-size: 12px;
+    width: 35px;
+    height: 35px;
   }
   .upcont {
-    padding: 0px 0px 30px 0px;
+    padding: 0px 0px 20px 0px;
   }
-  .upcont h1 {
-    font-size: 18px;
+  .towitem {
+    display: flex;
+    margin: 0px 0px 10px 0px;
   }
-  .emailbox input {
-    padding: 9px 10px 10px 5px;
-  }
-  .errow {
-    top: 101%;
-    left: 74%;
-    transform: translateY(-100%);
+  .call h1 {
+    font-size: 12px;
   }
   .listtow ul {
     display: none;
   }
   .footertow h1 {
     font-size: 15px;
+    text-align: start;
+  }
+  .emailbox input {
+    width: 100%;
   }
 }
 
@@ -409,12 +918,10 @@
   .listtow ul li a {
     font-size: 14px;
   }
-  /* //////////////////////////////////////////// */
   .navbar-light .navbar-brand {
     color: unset;
     width: 65%;
   }
-
   .btn-join {
     display: none;
   }
@@ -436,7 +943,6 @@
     outline: 0;
     box-shadow: none;
   }
-  /* ///////////////////////////////////////////// */
   .bannerone h1 {
     font-size: 38px;
   }
@@ -453,12 +959,10 @@
     font-size: 14px;
     padding: 6px 20px 6px 20px;
   }
-  /* ///////////////////////////////////////////// */
   .forboxfour:hover,
   .wholebox:hover {
     margin: 40px 0px 0px 0px;
   }
-  /* ///////////////////////////////////////////// */
   .services {
     padding: 35px 0px 80px 0px;
   }
@@ -490,14 +994,15 @@
     font-size: 12px;
     margin: 0px 0px 0px 0px;
   }
-  /* }//////////////////////////////////////////// */
   .number h1 {
     font-size: 50px;
   }
   .number p {
     font-size: 14px;
   }
-  /* ///////////////////////////////////////////// */
+  .ourteem {
+    margin-top: 40px;
+  }
   .starimg {
     margin: 20px 0px 0px 0px;
   }
@@ -538,37 +1043,44 @@
   .iconscont6 {
     width: 20%;
     top: 15%;
-    left: 18%;
-    transform: translate(-18%, -15%);
+    left: 26%;
+    transform: translate(-26%, -15%);
   }
   .iconscont2 {
     top: 15%;
-    left: 85%;
-    transform: translate(-85%, -15%);
+    left: 74%;
+    transform: translate(-74%, -15%);
   }
   .iconscont3 {
     top: 75%;
-    left: 4%;
-    transform: translate(-4%, -75%);
+    left: 17%;
+    transform: translate(-17%, -75%);
   }
   .iconscont4 {
-    top: 75%;
-    left: 96%;
-    transform: translate(-96%, -75%);
+    top: 76%;
+    left: 83%;
+    transform: translate(-83%, -76%);
   }
   .iconscont5 {
     top: 130%;
-    left: 19%;
-    transform: translate(-19%, -130%);
+    left: 26%;
+    transform: translate(-26%, -130%);
   }
   .iconscont6 {
     top: 130%;
-    left: 81%;
-    transform: translate(-81%, -130%);
+    left: 74%;
+    transform: translate(-74%, -130%);
   }
-  /* ///////////////////////////////////////////// */
-  .justpadd {
-    padding: 0px 0px 20px 0px;
+  .our-team {
+    padding: 105px 0px 0px 0px;
+  }
+  .singlecontnoe,
+  .singlecontthree,
+  .singlecontfour {
+    padding: 80px 0px 40px 0px;
+  }
+  .singleconttow {
+    padding: 80px 0px 0px 0px;
   }
   .wholeboxone,
   .wholeboxtow,
@@ -587,8 +1099,6 @@
     left: 5%;
     transform: translateY(-72%);
   }
-
-  /* ////////////////////////////////////////// */
   .owl-carousel .owl-item img {
     display: block;
     width: 30%;
@@ -677,22 +1187,17 @@
   }
   .listone ul,
   .listtow ul {
-    width: 45%;
+    width: 50%;
     margin: auto;
-  }
-  .listone ul li {
-    margin: 10px 0px 0px 0px;
   }
   .listone ul li a,
   .listtow ul li a {
     font-size: 12px;
   }
-  /* ///////////////////////////////////////////// */
   .navbar-light .navbar-brand {
     color: unset;
     width: 46%;
   }
-
   .btn-join {
     display: none;
   }
@@ -701,7 +1206,7 @@
   }
   .join-btn-mb {
     font-size: 10px;
-    margin: 5px 0px 3px 0px;
+    margin: 5px 0px 3px 120px;
     border: 2px solid transparent;
     border-radius: 30px;
   }
@@ -714,68 +1219,91 @@
     outline: 0;
     box-shadow: none;
   }
-  /* ///////////////////////////////////////////// */
   .bannerone h1 {
-    font-size: 35px;
-  }
-  .forboxone p,
-  .forboxtow p,
-  .forboxthree p {
-    padding: 0px 22px 40px 22px;
+    font-size: 38px;
   }
   .towcont h1 {
-    font-size: 17px;
+    font-size: 18px;
   }
   .btn-one,
   .btn-tow {
     font-size: 14px;
     padding: 6px 20px 6px 20px;
   }
-  /* ///////////////////////////////////////////// */
   .forboxfour:hover,
   .wholebox:hover {
     margin: 40px 0px 0px 0px;
   }
-  /* ///////////////////////////////////////////// */
   .services {
     padding: 35px 0px 80px 0px;
   }
+  .forboxone,
+  .forboxtow,
+  .forboxthree {
+    margin: 30px 40px 0px 40px;
+  }
+  .forboxfour {
+    margin: 40px 40px 0px 40px;
+  }
+  .forboxfour:hover {
+    margin: 40px 40px 0px 40px;
+  }
+  .singlecontnoe h1,
+  .singleconttow h1,
+  .singlecontthree h1,
+  .singlecontfour h1 {
+    font-size: 25px;
+  }
+  .singlecontnoe {
+    padding: 80px 0px 0px 0px;
+  }
+  .singleconttow {
+    padding: 15px 0px 0px 0px;
+  }
+  .singlecontfour {
+    padding: 60px 0px 40px 0px;
+  }
   .foriphone {
     position: static;
-    text-align: center;
   }
   .foriphone img {
-    width: 90%;
+    width: 100%;
   }
   .bannertow {
-    padding: 70px 0px 50px 0px;
+    padding: 50px 0px 50px 0px;
   }
   .bannertow h3 {
+    text-align: center;
+    font-size: 22px;
     margin: 40px 0px 0px 0px;
+  }
+  .bannertow span {
+    margin: auto;
   }
   .forrotatebox {
     margin: 0px 0px 0px 10px;
-    height: 45px;
-    width: 50px;
+    height: 50px;
+    width: 65px;
   }
   .bannertow ul li {
     padding: 40px 0px 0px 0px;
   }
   .towitems h1 {
-    font-size: 18px;
+    font-size: 20px;
   }
   .towitems p {
-    font-size: 12px;
+    font-size: 15px;
     margin: 0px 0px 0px 0px;
   }
-  /* }//////////////////////////////////////////// */
   .number h1 {
-    font-size: 50px;
+    font-size: 46px;
   }
   .number p {
-    font-size: 14px;
+    font-size: 16px;
   }
-  /* ///////////////////////////////////////////// */
+  .ourteem {
+    margin-top: 40px;
+  }
   .starimg {
     margin: 20px 0px 0px 0px;
   }
@@ -825,59 +1353,47 @@
     transform: translate(-85%, -15%);
   }
   .iconscont3 {
-    top: 75%;
+    top: 82%;
     left: 4%;
-    transform: translate(-4%, -75%);
+    transform: translate(-4%, -82%);
   }
   .iconscont4 {
-    top: 75%;
+    top: 88%;
     left: 96%;
-    transform: translate(-96%, -75%);
+    transform: translate(-96%, -88%);
   }
   .iconscont5 {
-    top: 130%;
-    left: 19%;
-    transform: translate(-19%, -130%);
+    top: 135%;
+    left: 18%;
+    transform: translate(-18%, -135%);
   }
   .iconscont6 {
-    top: 130%;
-    left: 81%;
-    transform: translate(-81%, -130%);
-  }
-  /* ///////////////////////////////////////////// */
-  .justpadd {
-    padding: 0px 0px 20px 0px;
+    top: 135%;
+    left: 83%;
+    transform: translate(-83%, -135%);
   }
   .wholeboxone,
   .wholeboxtow,
   .wholeboxthree {
-    background-size: 505px auto;
+    margin: 0px 92px 0px 92px;
   }
-  .threeitems h1 {
-    margin: 425px 0px 0px 0px;
-    font-size: 20px;
-  }
-  .threeitems h2 {
-    margin: 425px 0px 0px 0px;
-  }
-  .oneitems {
-    top: 72%;
-    left: 5%;
-    transform: translateY(-72%);
-  }
-
-  /* ////////////////////////////////////////// */
   .owl-carousel .owl-item img {
     display: block;
     width: 30%;
     margin: auto;
   }
+  .oneitems {
+    top: 61%;
+    left: 5%;
+    transform: translateY(-61%);
+  }
+
   .quotetion {
     height: 30px;
     width: 30px;
-    top: 45%;
+    top: 35%;
     left: 63%;
-    transform: translate(-63%, -45%);
+    transform: translate(-63%, -35%);
   }
   .quotetion i {
     font-size: 10px;
@@ -891,9 +1407,9 @@
     font-size: 14px;
   }
   .errow {
-    top: 99%;
+    top: 98%;
     left: 100%;
-    transform: translate(-100%, -99%);
+    transform: translate(-100%, -97%);
   }
   .singlepadd {
     padding: 115px 0px 0px 0px;
@@ -917,8 +1433,12 @@
     font-size: 14px;
   }
   .social ul {
-    width: 35%;
+    width: 30%;
     margin: auto;
+  }
+  .social ul li a {
+    width: 35px;
+    height: 35px;
   }
   .upcont {
     padding: 0px 0px 20px 0px;
@@ -959,12 +1479,10 @@
   .listtow ul li a {
     font-size: 12px;
   }
-  /* ///////////////////////////////////////////// */
   .navbar-light .navbar-brand {
     color: unset;
     width: 46%;
   }
-
   .btn-join {
     display: none;
   }
@@ -973,7 +1491,7 @@
   }
   .join-btn-mb {
     font-size: 10px;
-    margin: 5px 0px 3px 0px;
+    margin: 5px 0px 3px 55px;
     border: 2px solid transparent;
     border-radius: 30px;
   }
@@ -986,9 +1504,8 @@
     outline: 0;
     box-shadow: none;
   }
-  /* ///////////////////////////////////////////// */
   .bannerone h1 {
-    font-size: 28px;
+    font-size: 35px;
   }
   .towcont h1 {
     font-size: 17px;
@@ -998,14 +1515,38 @@
     font-size: 14px;
     padding: 6px 20px 6px 20px;
   }
-  /* ///////////////////////////////////////////// */
   .forboxfour:hover,
   .wholebox:hover {
     margin: 40px 0px 0px 0px;
   }
-  /* ///////////////////////////////////////////// */
   .services {
     padding: 35px 0px 80px 0px;
+  }
+  .forboxone,
+  .forboxtow,
+  .forboxthree {
+    margin: 30px 20px 0px 20px;
+  }
+  .forboxfour {
+    margin: 40px 20px 0px 20px;
+  }
+  .forboxfour:hover {
+    margin: 40px 20px 0px 20px;
+  }
+  .singlecontnoe h1,
+  .singleconttow h1,
+  .singlecontthree h1,
+  .singlecontfour h1 {
+    font-size: 25px;
+  }
+  .singlecontnoe {
+    padding: 80px 0px 0px 0px;
+  }
+  .singleconttow {
+    padding: 15px 0px 0px 0px;
+  }
+  .singlecontfour {
+    padding: 60px 0px 40px 0px;
   }
   .foriphone {
     position: static;
@@ -1017,12 +1558,17 @@
     padding: 50px 0px 50px 0px;
   }
   .bannertow h3 {
+    text-align: center;
+    font-size: 18px;
     margin: 40px 0px 0px 0px;
+  }
+  .bannertow span {
+    margin: auto;
   }
   .forrotatebox {
     margin: 0px 0px 0px 10px;
-    height: 45px;
-    width: 65px;
+    height: 50px;
+    width: 75px;
   }
   .bannertow ul li {
     padding: 40px 0px 0px 0px;
@@ -1031,17 +1577,18 @@
     font-size: 18px;
   }
   .towitems p {
-    font-size: 12px;
+    font-size: 14px;
     margin: 0px 0px 0px 0px;
   }
-  /* }//////////////////////////////////////////// */
   .number h1 {
     font-size: 40px;
   }
   .number p {
     font-size: 12px;
   }
-  /* ///////////////////////////////////////////// */
+  .ourteem {
+    margin-top: 40px;
+  }
   .starimg {
     margin: 20px 0px 0px 0px;
   }
@@ -1091,57 +1638,50 @@
     transform: translate(-85%, -15%);
   }
   .iconscont3 {
-    top: 80%;
+    top: 82%;
     left: 4%;
-    transform: translate(-4%, -80%);
+    transform: translate(-4%, -82%);
   }
   .iconscont4 {
-    top: 83%;
+    top: 88%;
     left: 96%;
-    transform: translate(-96%, -83%);
+    transform: translate(-96%, -88%);
   }
   .iconscont5 {
-    top: 130%;
-    left: 19%;
-    transform: translate(-19%, -130%);
+    top: 138%;
+    left: 18%;
+    transform: translate(-18%, -138%);
   }
   .iconscont6 {
-    top: 145%;
-    left: 81%;
-    transform: translate(-81%, -145%);
+    top: 138%;
+    left: 83%;
+    transform: translate(-83%, -138%);
   }
-  /* ///////////////////////////////////////////// */
   .justpadd {
     padding: 0px 0px 20px 0px;
   }
   .wholeboxone,
   .wholeboxtow,
   .wholeboxthree {
-    background-size: 416px auto;
+    margin: 0px 48px 0px 48px;
   }
-  .threeitems h1 {
-    margin: 355px 0px 0px 0px;
-  }
-  .threeitems h2 {
-    margin: 355px 0px 0px 0px;
-  }
-  .oneitems {
-    top: 58%;
-    left: 5%;
-    transform: translateY(58%);
-  }
-  /* ////////////////////////////////////////// */
   .owl-carousel .owl-item img {
     display: block;
     width: 30%;
     margin: auto;
   }
+  .oneitems {
+    top: 61%;
+    left: 5%;
+    transform: translateY(-61%);
+  }
+
   .quotetion {
     height: 30px;
     width: 30px;
-    top: 45%;
+    top: 35%;
     left: 63%;
-    transform: translate(-63%, -45%);
+    transform: translate(-63%, -35%);
   }
   .quotetion i {
     font-size: 10px;
@@ -1155,9 +1695,286 @@
     font-size: 14px;
   }
   .errow {
-    top: 99%;
+    top: 98%;
     left: 100%;
-    transform: translate(-100%, -99%);
+    transform: translate(-100%, -97%);
+  }
+  .singlepadd {
+    padding: 115px 0px 0px 0px;
+  }
+  .forbottom {
+    padding: 75px 0px 0px 0px;
+  }
+  .singlecont {
+    padding: 120px 0px 30px 0px;
+  }
+  .paddpadd {
+    padding: 45px 0px 30px 0px;
+  }
+  .footerone {
+    padding: 40px 0px 0px 0px;
+  }
+  .footerone img {
+    padding: 0px 0px 15px 0px;
+  }
+  .footerone p {
+    font-size: 14px;
+  }
+  .social ul {
+    width: 35%;
+    margin: auto;
+  }
+  .social ul li a {
+    width: 35px;
+    height: 35px;
+  }
+  .upcont {
+    padding: 0px 0px 20px 0px;
+  }
+  .towitem {
+    display: flex;
+    margin: 0px 0px 10px 0px;
+  }
+  .call h1 {
+    font-size: 12px;
+  }
+  .listtow ul {
+    display: none;
+  }
+  .footertow h1 {
+    font-size: 15px;
+    text-align: center;
+  }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles meddium (Portrait)
+  ##Screen = B/w 376px to 424.98px
+*/
+
+@media (min-width: 376px) and (max-width: 424.98px) {
+  .headerone h1 {
+    font-size: 12px;
+    margin: unset;
+    text-align: center;
+  }
+  .listone ul,
+  .listtow ul {
+    width: 70%;
+    margin: auto;
+  }
+  .listone ul li a,
+  .listtow ul li a {
+    font-size: 12px;
+  }
+  .navbar-light .navbar-brand {
+    color: unset;
+    width: 46%;
+  }
+  .btn-join {
+    display: none;
+  }
+  .join-btn-mb {
+    display: inherit;
+  }
+  .join-btn-mb {
+    font-size: 10px;
+    margin: 5px 0px 3px 55px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+  }
+  .navbar-light .navbar-toggler {
+    color: #000;
+    border-color: rgba(0, 0, 0, 0.5);
+  }
+  .navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+  }
+  .bannerone h1 {
+    font-size: 35px;
+  }
+  .towcont h1 {
+    font-size: 17px;
+  }
+  .btn-one,
+  .btn-tow {
+    font-size: 14px;
+    padding: 6px 20px 6px 20px;
+  }
+  .forboxfour:hover,
+  .wholebox:hover {
+    margin: 40px 0px 0px 0px;
+  }
+  .services {
+    padding: 35px 0px 80px 0px;
+  }
+  .singlecontnoe h1,
+  .singleconttow h1,
+  .singlecontthree h1,
+  .singlecontfour h1 {
+    font-size: 25px;
+  }
+  .singlecontnoe {
+    padding: 80px 0px 0px 0px;
+  }
+  .singleconttow {
+    padding: 15px 0px 0px 0px;
+  }
+  .singlecontfour {
+    padding: 60px 0px 40px 0px;
+  }
+  .foriphone {
+    position: static;
+  }
+  .foriphone img {
+    width: 100%;
+  }
+  .bannertow {
+    padding: 50px 0px 50px 0px;
+  }
+  .bannertow h3 {
+    text-align: center;
+    font-size: 18px;
+    margin: 40px 0px 0px 0px;
+  }
+  .bannertow span {
+    margin: auto;
+  }
+  .forrotatebox {
+    margin: 0px 0px 0px 10px;
+    height: 50px;
+    width: 80px;
+  }
+  .bannertow ul li {
+    padding: 40px 0px 0px 0px;
+  }
+  .towitems h1 {
+    font-size: 18px;
+  }
+  .towitems p {
+    font-size: 13px;
+    margin: 0px 0px 0px 0px;
+  }
+  .number h1 {
+    font-size: 40px;
+  }
+  .number p {
+    font-size: 12px;
+  }
+  .ourteem {
+    margin-top: 40px;
+  }
+  .starimg {
+    margin: 20px 0px 0px 0px;
+  }
+  .starimg img {
+    width: 50%;
+  }
+  .icons1,
+  .icons2,
+  .icons3,
+  .icons4,
+  .icons5,
+  .icons6 {
+    height: 30px;
+    width: 30px;
+  }
+  .icons1 i,
+  .icons2 i,
+  .icons3 i,
+  .icons4 i,
+  .icons5 i,
+  .icons6 i {
+    font-size: 13px;
+  }
+  .iconscont1 h1,
+  .iconscont2 h1,
+  .iconscont3 h1,
+  .iconscont4 h1,
+  .iconscont5 h1,
+  .iconscont6 h1 {
+    font-size: 14px;
+    margin: 8px 0px 0px 0px;
+  }
+  .iconscont1,
+  .iconscont2,
+  .iconscont3,
+  .iconscont4,
+  .iconscont5,
+  .iconscont6 {
+    width: 20%;
+    top: 15%;
+    left: 18%;
+    transform: translate(-18%, -15%);
+  }
+  .iconscont2 {
+    top: 15%;
+    left: 85%;
+    transform: translate(-85%, -15%);
+  }
+  .iconscont3 {
+    top: 82%;
+    left: 4%;
+    transform: translate(-4%, -82%);
+  }
+  .iconscont4 {
+    top: 88%;
+    left: 96%;
+    transform: translate(-96%, -88%);
+  }
+  .iconscont5 {
+    top: 145%;
+    left: 18%;
+    transform: translate(-18%, -145%);
+  }
+  .iconscont6 {
+    top: 155%;
+    left: 83%;
+    transform: translate(-83%, -155%);
+  }
+  .justpadd {
+    padding: 0px 0px 20px 0px;
+  }
+  .wholeboxone,
+  .wholeboxtow,
+  .wholeboxthree {
+    margin: 0px 23px 0px 23px;
+  }
+  .owl-carousel .owl-item img {
+    display: block;
+    width: 30%;
+    margin: auto;
+  }
+  .oneitems {
+    top: 60%;
+    left: 5%;
+    transform: translateY(-60%);
+  }
+
+  .quotetion {
+    height: 30px;
+    width: 30px;
+    top: 35%;
+    left: 63%;
+    transform: translate(-63%, -35%);
+  }
+  .quotetion i {
+    font-size: 10px;
+  }
+  .frofile h1 {
+    font-size: 20px;
+    color: #161616;
+    padding: 15px 0px 0px 0px;
+  }
+  .frofile p {
+    font-size: 14px;
+  }
+  .errow {
+    top: 98%;
+    left: 100%;
+    transform: translate(-100%, -97%);
   }
   .singlepadd {
     padding: 115px 0px 0px 0px;
@@ -1184,269 +2001,9 @@
     width: 45%;
     margin: auto;
   }
-  .upcont {
-    padding: 0px 0px 20px 0px;
-  }
-  .towitem {
-    display: flex;
-    margin: 0px 0px 10px 0px;
-  }
-  .call h1 {
-    font-size: 12px;
-  }
-  .listtow ul {
-    display: none;
-  }
-  .footertow h1 {
-    font-size: 15px;
-    text-align: center;
-  }
-}
-
-/* 
-  ##Device = Most of the Smartphones Mobiles meddium (Portrait)
-  ##Screen = B/w 376px to 424px
-*/
-
-@media (min-width: 376px) and (max-width: 424px) {
-  .headerone h1 {
-    font-size: 12px;
-    margin: unset;
-    text-align: center;
-  }
-  .listone ul,
-  .listtow ul {
-    width: 70%;
-    margin: auto;
-  }
-  .listone ul li a,
-  .listtow ul li a {
-    font-size: 12px;
-  }
-  /* /////////////////////////////////////////////// */
-  .navbar-light .navbar-brand {
-    color: unset;
-    width: 46%;
-  }
-
-  .btn-join {
-    display: none;
-  }
-  .join-btn-mb {
-    display: inherit;
-  }
-  .join-btn-mb {
-    font-size: 10px;
-    margin: 5px 0px 3px 0px;
-    border: 2px solid transparent;
-    border-radius: 30px;
-  }
-  .navbar-light .navbar-toggler {
-    color: #000;
-    border-color: rgba(0, 0, 0, 0.5);
-  }
-  .navbar-toggler:focus {
-    text-decoration: none;
-    outline: 0;
-    box-shadow: none;
-  }
-  /* ///////////////////////////////////////////// */
-  .bannerone h1 {
-    font-size: 28px;
-  }
-  .towcont h1 {
-    font-size: 17px;
-  }
-  .btn-one,
-  .btn-tow {
-    font-size: 14px;
-    padding: 6px 20px 6px 20px;
-  }
-  /* ///////////////////////////////////////////// */
-  .forboxfour:hover,
-  .wholebox:hover {
-    margin: 40px 0px 0px 0px;
-  }
-  /* ///////////////////////////////////////////// */
-  .services {
-    padding: 35px 0px 80px 0px;
-  }
-  .foriphone {
-    position: static;
-  }
-  .foriphone img {
-    width: 100%;
-  }
-  .bannertow {
-    padding: 50px 0px 50px 0px;
-  }
-  .bannertow h3 {
-    margin: 40px 0px 0px 0px;
-  }
-  .forrotatebox {
-    margin: 0px 0px 0px 10px;
-    height: 45px;
-    width: 65px;
-  }
-  .bannertow ul li {
-    padding: 40px 0px 0px 0px;
-  }
-  .towitems h1 {
-    font-size: 18px;
-  }
-  .towitems p {
-    font-size: 12px;
-    margin: 0px 0px 0px 0px;
-  }
-  /* }//////////////////////////////////////////// */
-  .number h1 {
-    font-size: 40px;
-  }
-  .number p {
-    font-size: 12px;
-  }
-  /* ///////////////////////////////////////////// */
-  .starimg {
-    margin: 20px 0px 0px 0px;
-  }
-  .starimg img {
-    width: 50%;
-  }
-  .icons1,
-  .icons2,
-  .icons3,
-  .icons4,
-  .icons5,
-  .icons6 {
-    height: 30px;
-    width: 30px;
-  }
-  .icons1 i,
-  .icons2 i,
-  .icons3 i,
-  .icons4 i,
-  .icons5 i,
-  .icons6 i {
-    font-size: 13px;
-  }
-  .iconscont1 h1,
-  .iconscont2 h1,
-  .iconscont3 h1,
-  .iconscont4 h1,
-  .iconscont5 h1,
-  .iconscont6 h1 {
-    font-size: 14px;
-    margin: 8px 0px 0px 0px;
-  }
-  .iconscont1,
-  .iconscont2,
-  .iconscont3,
-  .iconscont4,
-  .iconscont5,
-  .iconscont6 {
-    width: 20%;
-    top: 15%;
-    left: 18%;
-    transform: translate(-18%, -15%);
-  }
-  .iconscont2 {
-    top: 15%;
-    left: 85%;
-    transform: translate(-85%, -15%);
-  }
-  .iconscont3 {
-    top: 80%;
-    left: 4%;
-    transform: translate(-4%, -80%);
-  }
-  .iconscont4 {
-    top: 88%;
-    left: 96%;
-    transform: translate(-96%, -88%);
-  }
-  .iconscont5 {
-    top: 140%;
-    left: 18%;
-    transform: translate(-18%, -140%);
-  }
-  .iconscont6 {
-    top: 148%;
-    left: 85%;
-    transform: translate(-85%, -148%);
-  }
-  /* ///////////////////////////////////////////// */
-  .justpadd {
-    padding: 0px 0px 20px 0px;
-  }
-  .wholeboxone,
-  .wholeboxtow,
-  .wholeboxthree {
-    background-size: 365px auto;
-  }
-  .threeitems h1 {
-    margin: 310px 0px 0px 0px;
-  }
-  .threeitems h2 {
-    margin: 310px 0px 0px 0px;
-  }
-  .oneitems {
-    top: 55%;
-    left: 5%;
-    transform: translateY(55%);
-  }
-  /* ////////////////////////////////////////// */
-  .owl-carousel .owl-item img {
-    display: block;
-    width: 30%;
-    margin: auto;
-  }
-  .quotetion {
-    height: 30px;
-    width: 30px;
-    top: 40%;
-    left: 63%;
-    transform: translate(-63%, -40%);
-  }
-  .quotetion i {
-    font-size: 10px;
-  }
-  .frofile h1 {
-    font-size: 20px;
-    color: #161616;
-    padding: 15px 0px 0px 0px;
-  }
-  .frofile p {
-    font-size: 14px;
-  }
-  .errow {
-    top: 100%;
-    left: 100%;
-    transform: translate(-100%, -100%);
-  }
-  .singlepadd {
-    padding: 115px 0px 0px 0px;
-  }
-  .forbottom {
-    padding: 75px 0px 0px 0px;
-  }
-  .singlecont {
-    padding: 120px 0px 30px 0px;
-  }
-  .paddpadd {
-    padding: 45px 0px 30px 0px;
-  }
-  .footerone {
-    padding: 40px 0px 0px 0px;
-  }
-  .footerone img {
-    padding: 0px 0px 15px 0px;
-  }
-  .footerone p {
-    font-size: 14px;
-  }
-  .social ul {
-    width: 48%;
-    margin: auto;
+  .social ul li a {
+    width: 35px;
+    height: 35px;
   }
   .upcont {
     padding: 0px 0px 20px 0px;
@@ -1469,10 +2026,10 @@
 
 /* 
   ##Device = Most of the Smartphones Mobiles small(Portrait)
-  ##Screen = B/w 0px to 375.98px
+  ##Screen = B/w 321px to 375.98px
 */
 
-@media (min-width: 0px) and (max-width: 375.98px) {
+@media (min-width: 321px) and (max-width: 375.98px) {
   .headerone h1 {
     font-size: 12px;
     margin: unset;
@@ -1487,12 +2044,10 @@
   .listtow ul li a {
     font-size: 12px;
   }
-  /* /////////////////////////////////////////////// */
   .navbar-light .navbar-brand {
     color: unset;
     width: 46%;
   }
-
   .btn-join {
     display: none;
   }
@@ -1514,7 +2069,6 @@
     outline: 0;
     box-shadow: none;
   }
-  /* ///////////////////////////////////////////// */
   .bannerone h1 {
     font-size: 28px;
   }
@@ -1526,14 +2080,27 @@
     font-size: 14px;
     padding: 6px 20px 6px 20px;
   }
-  /* ///////////////////////////////////////////// */
   .forboxfour:hover,
   .wholebox:hover {
     margin: 40px 0px 0px 0px;
   }
-  /* ///////////////////////////////////////////// */
   .services {
     padding: 35px 0px 80px 0px;
+  }
+  .singlecontnoe h1,
+  .singleconttow h1,
+  .singlecontthree h1,
+  .singlecontfour h1 {
+    font-size: 22px;
+  }
+  .singlecontnoe {
+    padding: 80px 0px 0px 0px;
+  }
+  .singleconttow {
+    padding: 15px 0px 0px 0px;
+  }
+  .singlecontfour {
+    padding: 60px 0px 40px 0px;
   }
   .foriphone {
     position: static;
@@ -1545,12 +2112,17 @@
     padding: 50px 0px 50px 0px;
   }
   .bannertow h3 {
+    text-align: center;
+    font-size: 24px;
     margin: 40px 0px 0px 0px;
+  }
+  .bannertow span {
+    margin: auto;
   }
   .forrotatebox {
     margin: 0px 0px 0px 10px;
     height: 45px;
-    width: 70px;
+    width: 75px;
   }
   .bannertow ul li {
     padding: 40px 0px 0px 0px;
@@ -1559,17 +2131,18 @@
     font-size: 18px;
   }
   .towitems p {
-    font-size: 10px;
+    font-size: 12px;
     margin: 0px 0px 0px 0px;
   }
-  /* }//////////////////////////////////////////// */
   .number h1 {
     font-size: 40px;
   }
   .number p {
     font-size: 12px;
   }
-  /* ///////////////////////////////////////////// */
+  .ourteem {
+    margin-top: 40px;
+  }
   .starimg {
     margin: 20px 0px 0px 0px;
   }
@@ -1638,7 +2211,6 @@
     left: 85%;
     transform: translate(-85%, -160%);
   }
-  /* ///////////////////////////////////////////// */
   .justpadd {
     padding: 0px 0px 20px 0px;
   }
@@ -1653,11 +2225,11 @@
     margin: auto;
   }
   .oneitems {
-    top: 50%;
+    top: 60%;
     left: 5%;
-    transform: translateY(50%);
+    transform: translateY(-60%);
   }
-  /* ///////////////////////////////////////////// */
+
   .quotetion {
     height: 30px;
     width: 30px;
@@ -1677,9 +2249,285 @@
     font-size: 14px;
   }
   .errow {
-    top: 100%;
+    top: 98%;
     left: 100%;
-    transform: translate(-100%, -100%);
+    transform: translate(-100%, -97%);
+  }
+  .singlepadd {
+    padding: 115px 0px 0px 0px;
+  }
+  .forbottom {
+    padding: 75px 0px 0px 0px;
+  }
+  .singlecont {
+    padding: 120px 0px 30px 0px;
+  }
+  .paddpadd {
+    padding: 45px 0px 30px 0px;
+  }
+  .footerone {
+    padding: 40px 0px 0px 0px;
+  }
+  .footerone img {
+    padding: 0px 0px 15px 0px;
+  }
+  .footerone p {
+    font-size: 14px;
+  }
+  .social ul {
+    width: 45%;
+    margin: auto;
+  }
+  .social ul li a {
+    width: 35px;
+    height: 35px;
+  }
+  .upcont {
+    padding: 0px 0px 20px 0px;
+  }
+  .towitem {
+    display: flex;
+    margin: 0px 0px 10px 0px;
+  }
+  .call h1 {
+    font-size: 12px;
+  }
+  .listtow ul {
+    display: none;
+  }
+  .footertow h1 {
+    font-size: 15px;
+    text-align: center;
+  }
+}
+/* 
+  ##Device = Most of the Smartphones Mobiles small(Portrait)
+  ##Screen = B/w 0px to 320px
+*/
+
+@media (min-width: 0px) and (max-width: 320px) {
+  .headerone h1 {
+    font-size: 12px;
+    margin: unset;
+    text-align: center;
+  }
+  .listone ul,
+  .listtow ul {
+    width: 70%;
+    margin: auto;
+  }
+  .listone ul li a,
+  .listtow ul li a {
+    font-size: 12px;
+  }
+  .navbar-light .navbar-brand {
+    color: unset;
+    width: 46%;
+  }
+  .btn-join {
+    display: none;
+  }
+  .join-btn-mb {
+    display: inherit;
+  }
+  .join-btn-mb {
+    font-size: 10px;
+    margin: 5px 0px 3px 0px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+  }
+  .navbar-light .navbar-toggler {
+    color: #000;
+    border-color: rgba(0, 0, 0, 0.5);
+  }
+  .navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+  }
+  .bannerone h1 {
+    font-size: 28px;
+  }
+  .towcont h1 {
+    font-size: 17px;
+  }
+  .btn-one,
+  .btn-tow {
+    font-size: 14px;
+    padding: 6px 20px 6px 20px;
+  }
+  .forboxfour:hover,
+  .wholebox:hover {
+    margin: 40px 0px 0px 0px;
+  }
+  .services {
+    padding: 35px 0px 80px 0px;
+  }
+  .singlecontnoe h1,
+  .singleconttow h1,
+  .singlecontthree h1,
+  .singlecontfour h1 {
+    font-size: 22px;
+  }
+  .singlecontnoe {
+    padding: 80px 0px 0px 0px;
+  }
+  .singleconttow {
+    padding: 15px 0px 0px 0px;
+  }
+  .singlecontfour {
+    padding: 60px 0px 40px 0px;
+  }
+  .foriphone {
+    position: static;
+  }
+  .foriphone img {
+    width: 100%;
+  }
+  .bannertow {
+    padding: 50px 0px 50px 0px;
+  }
+  .bannertow h3 {
+    text-align: center;
+    font-size: 20px;
+    margin: 40px 0px 0px 0px;
+  }
+  .bannertow span {
+    margin: auto;
+  }
+  .forrotatebox {
+    margin: 0px 0px 0px 10px;
+    height: 40px;
+    width: 70px;
+  }
+  .bannertow ul li {
+    padding: 40px 0px 0px 0px;
+  }
+  .towitems h1 {
+    font-size: 18px;
+  }
+  .towitems p {
+    font-size: 10px;
+    margin: 0px 0px 0px 0px;
+  }
+  .number h1 {
+    font-size: 40px;
+  }
+  .number p {
+    font-size: 12px;
+  }
+  .ourteem {
+    margin-top: 40px;
+  }
+  .starimg {
+    margin: 20px 0px 0px 0px;
+  }
+  .starimg img {
+    width: 50%;
+  }
+  .icons1,
+  .icons2,
+  .icons3,
+  .icons4,
+  .icons5,
+  .icons6 {
+    height: 30px;
+    width: 30px;
+  }
+  .icons1 i,
+  .icons2 i,
+  .icons3 i,
+  .icons4 i,
+  .icons5 i,
+  .icons6 i {
+    font-size: 13px;
+  }
+  .iconscont1 h1,
+  .iconscont2 h1,
+  .iconscont3 h1,
+  .iconscont4 h1,
+  .iconscont5 h1,
+  .iconscont6 h1 {
+    font-size: 14px;
+    margin: 8px 0px 0px 0px;
+  }
+  .iconscont1,
+  .iconscont2,
+  .iconscont3,
+  .iconscont4,
+  .iconscont5,
+  .iconscont6 {
+    width: 20%;
+    top: 15%;
+    left: 18%;
+    transform: translate(-18%, -15%);
+  }
+  .iconscont2 {
+    top: 15%;
+    left: 85%;
+    transform: translate(-85%, -15%);
+  }
+  .iconscont3 {
+    top: 88%;
+    left: 4%;
+    transform: translate(-4%, -88%);
+  }
+  .iconscont4 {
+    top: 88%;
+    left: 96%;
+    transform: translate(-96%, -88%);
+  }
+  .iconscont5 {
+    top: 145%;
+    left: 18%;
+    transform: translate(-18%, -145%);
+  }
+  .iconscont6 {
+    top: 160%;
+    left: 85%;
+    transform: translate(-85%, -160%);
+  }
+  .justpadd {
+    padding: 0px 0px 20px 0px;
+  }
+  .wholeboxone,
+  .wholeboxtow,
+  .wholeboxthree {
+    background-size: 318px auto;
+  }
+  .owl-carousel .owl-item img {
+    display: block;
+    width: 30%;
+    margin: auto;
+  }
+  .oneitems {
+    top: 57%;
+    left: 5%;
+    transform: translateY(-57%);
+  }
+
+  .quotetion {
+    height: 30px;
+    width: 30px;
+    top: 35%;
+    left: 63%;
+    transform: translate(-63%, -35%);
+  }
+  .quotetion i {
+    font-size: 10px;
+  }
+  .frofile h1 {
+    font-size: 20px;
+    color: #161616;
+    padding: 15px 0px 0px 0px;
+  }
+  .frofile p {
+    font-size: 14px;
+  }
+  .errow {
+    top: 99%;
+    left: 100%;
+    transform: translate(-100%, -99%);
   }
   .singlepadd {
     padding: 115px 0px 0px 0px;
@@ -1705,6 +2553,10 @@
   .social ul {
     width: 55%;
     margin: auto;
+  }
+  .social ul li a {
+    width: 35px;
+    height: 35px;
   }
   .upcont {
     padding: 0px 0px 20px 0px;

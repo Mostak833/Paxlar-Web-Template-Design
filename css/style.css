@@ -40,8 +40,6 @@
   color: #ff9b1a;
 }
 /* ///////////////////////////////////////// */
-.headertow {
-}
 .padding {
   padding: 15px 0px 15px 0px;
 }
@@ -69,7 +67,7 @@
 .join-btn-mb {
   font-size: 14px;
   text-transform: uppercase;
-  color: #ffff;
+  color: rgb(255, 255, 255);
   font-weight: 600;
   background-color: #ff9b1a;
   margin: 0px 0px 0px 10px;
@@ -89,7 +87,8 @@
 }
 /* /////////////////////////////////////////// */
 .bannerone {
-  background-image: url(../images/Paxlar1.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../images/pexels-karolina-grabowska-5980913.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -97,30 +96,28 @@
 }
 .bannerone h1 {
   font-size: 60px;
-  color: #ffff;
+  color: rgb(255, 255, 255);
   padding: 0px 0px 35px 0px;
 }
 .threecont {
   display: flex;
   justify-content: space-around;
-  width: 90%;
+  width: 80%;
   margin: auto;
 }
 .towcont h1 {
   font-size: 20px;
-  color: #ffff;
+  color: rgb(255, 255, 255);
   padding: 0px 0px 0px 0px;
 }
 .towcont p {
   font-size: 14px;
-  color: #ffff;
+  color: rgb(255, 255, 255);
   padding: 0px 0px 40px 0px;
-}
-.buttontow {
 }
 .btn-one,
 .btn-tow {
-  color: #ffff;
+  color: rgb(255, 255, 255);
   font-size: 16px;
   font-weight: 600;
   border: 2px solid #ff9b1a;
@@ -142,7 +139,7 @@
   margin: 2px 0px 0px 10px;
 }
 .btn-tow:hover {
-  color: #ffff;
+  color: rgb(255, 255, 255);
   background-color: #ff9b1a;
 }
 /* //////////////////////////////////////// */
@@ -165,17 +162,17 @@
 .forboxone:hover .foriconthree i,
 .forboxtow:hover .foriconthree i,
 .forboxthree:hover .foriconthree i {
-  color: #ffff;
+  color: rgb(255, 255, 255);
 }
 .forboxone:hover.forboxone h1,
 .forboxtow:hover.forboxtow h1,
 .forboxthree:hover.forboxthree h1 {
-  color: #ffff;
+  color: rgb(255, 255, 255);
 }
 .forboxone:hover.forboxone p,
 .forboxtow:hover.forboxtow p,
 .forboxthree:hover.forboxthree p {
-  color: #ffff;
+  color: rgb(255, 255, 255);
 }
 .foriconthree {
   text-align: center;
@@ -188,7 +185,8 @@
 }
 .forboxone h1,
 .forboxtow h1,
-.forboxthree h1 {
+.forboxthree h1,
+.forboxfour h1 {
   color: #161616;
   font-size: 25px;
   padding: 0px 0px 15px 0px;
@@ -196,7 +194,8 @@
 }
 .forboxone p,
 .forboxtow p,
-.forboxthree p {
+.forboxthree p,
+.forboxfour p {
   color: #161616;
   font-size: 15px;
   padding: 0px 22px 25px 22px;
@@ -218,11 +217,17 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
-.singlecont {
+.singlecontnoe,
+.singleconttow,
+.singlecontthree,
+.singlecontfour {
   text-align: center;
-  padding: 60px 0px 80px 0px;
+  padding: 80px 0px 40px 0px;
 }
-.singlecont h1 {
+.singlecontnoe h1,
+.singleconttow h1,
+.singlecontthree h1,
+.singlecontfour h1 {
   color: #161616;
   font-size: 25px;
   font-weight: 600;
@@ -230,13 +235,19 @@
   padding: 0px 0px 10px 0px;
   margin: 0px 0px 0px 0px;
 }
-.singlecont p {
+.singlecontnoe p,
+.singleconttow p,
+.singlecontthree p,
+.singlecontfour p {
   color: #161616;
   font-size: 15px;
   padding: 0px 0px 10px 0px;
   margin: 10px 0px 0px 0px;
 }
-.singlecont span {
+.singlecontnoe span,
+.singleconttow span,
+.singlecontthree span,
+.singlecontfour span {
   display: block;
   width: 15%;
   height: 3px;
@@ -244,31 +255,20 @@
   background-color: #ff9b1a;
 }
 .forboxfour {
-  width: 100%;
   text-align: center;
-  border-radius: 25px;
+  border-radius: 10px;
   margin: 40px 0px 0px 0px;
   box-shadow: -3px -3px 4px 2px #6a6b6b;
   transition: 0.3s all ease-in-out;
 }
 .forboxfour:hover {
+  -webkit-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  transform: translateY(-10px);
 }
 .forimgthree {
   text-align: center;
   padding: 40px 0px 15px 0px;
-}
-.forboxfour h1 {
-  color: #161616;
-  font-size: 25px;
-  font-weight: 600;
-  padding: 10px 0px 20px 0px;
-  margin: 0px 0px 0px 0px;
-}
-.forboxfour p {
-  color: #161616;
-  font-size: 15px;
-  padding: 0px 22px 35px 22px;
-  margin: 0px 0px 0px 0px;
 }
 .forview {
   text-align: center;
@@ -286,7 +286,7 @@
   border: 2px solid #ff9b1a;
 }
 .forview a:hover {
-  color: #ffff;
+  color: rgb(255, 255, 255);
   background-color: #ff9b1a;
 }
 /* ////////////////////////////////////////////////////////////////////// */
@@ -306,7 +306,7 @@
   width: 100%;
 }
 .bannertow h3 {
-  color: #ffff;
+  color: rgb(255, 255, 255);
   font-size: 20px;
   text-transform: uppercase;
   padding: 0px 0px 15px 0px;
@@ -330,7 +330,7 @@
   padding: 50px 0px 0px 0px;
 }
 .forrotatebox {
-  height: 50px;
+  height: 60px;
   width: 60px;
   border: 2px solid #ff9b1a;
   border-radius: 5px;
@@ -341,27 +341,28 @@
   margin: 0px 0px 0px 0px;
 }
 .towitems h1 {
-  color: #ffff;
+  color: rgb(255, 255, 255);
   font-size: 24px;
 }
 .towitems p {
-  color: #ffff;
+  color: rgb(255, 255, 255);
   font-size: 12px;
 }
 /* ///////////////////////////////////////////// */
 .number {
-  padding: 25px 0px 25px 0px;
+  margin-top: -3px;
+  padding: 28px 0px 25px 0px;
   background-color: #ff9b1a;
 }
 .number h1 {
   font-size: 60px;
   font-weight: 600;
-  color: #ffff;
+  color: rgb(255, 255, 255);
 }
 .number p {
   font-size: 20px;
   font-weight: 400;
-  color: #ffff;
+  color: rgb(255, 255, 255);
   text-transform: uppercase;
 }
 /* //////////////////////////////////////////////////////////// */
@@ -468,11 +469,11 @@
   margin: auto;
 }
 /* ////////////////////////////////////////////////////////////////////////////// */
-.singlepadd {
-  padding: 180px 0px 0px 0px;
+.our-team {
+  padding: 160px 0px 0px 0px;
 }
 .forbottom {
-  padding: 80px 0px 0px 0px;
+  padding: 60px 0px 0px 0px;
   text-align: center;
 }
 .forbottom h1 {
@@ -495,10 +496,8 @@
   background-repeat: no-repeat;
   padding: 60px 0px 60px 0px;
 }
-.freecont {
-}
 .freecont h1 {
-  color: #ffff;
+  color: rgb(255, 255, 255);
   font-size: 25px;
   font-weight: 500;
   text-transform: uppercase;
@@ -514,8 +513,8 @@
 }
 .inputthree input,
 .inputone textarea {
-  color: #ffff;
-  border: 1px solid #ffff;
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
   background-color: transparent;
   padding: 6px 10px 6px 10px;
   margin: 20px 0px 0px 0px;
@@ -528,7 +527,7 @@
 }
 .inputthree input::placeholder,
 .inputone textarea::placeholder {
-  color: #ffff;
+  color: rgb(255, 255, 255);
   text-transform: capitalize;
   opacity: 0.5;
 }
@@ -541,7 +540,7 @@
   margin: 40px 0px 0px 0px;
 }
 .btn-send {
-  color: #ffff;
+  color: rgb(255, 255, 255);
   font-size: 16px;
   font-weight: 600;
   border: 2px solid #ff9b1a;
@@ -557,8 +556,8 @@
   background-color: transparent;
 }
 /* ////////////////////////////////////////////////////////////////// */
-.justpadd {
-  padding: 0px 0px 80px 0px;
+.blogs {
+  padding: 0px 0px 0px 0px;
 }
 .wholeboxone,
 .wholeboxtow,
@@ -572,6 +571,13 @@
   margin: 0px 0px 0px 0px;
   box-shadow: -3px -3px 4px 2px #212529;
   transition: 0.3s all ease-in-out;
+}
+.wholeboxone:hover,
+.wholeboxtow:hover,
+.wholeboxthree:hover {
+  -webkit-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  transform: translateY(-10px);
 }
 .wholeboxtow {
   background-image: url(../images/Paxlar14.png);
@@ -593,7 +599,7 @@
   height: 40px;
   background-color: #f05154;
   display: flex;
-  border: 2px solid #ffff;
+  border: 2px solid rgb(255, 255, 255);
   border-radius: 50%;
   justify-content: center;
   align-items: center;
@@ -606,7 +612,7 @@
 .quotetion i,
 .errow i {
   font-size: 15px;
-  color: #ffff;
+  color: rgb(255, 255, 255);
 }
 .threeitems h1 {
   font-size: 15px;
@@ -691,7 +697,7 @@
   padding: 0px 0px 50px 0px;
 }
 .footerone p {
-  color: #ffff;
+  color: rgb(255, 255, 255);
   font-size: 15px;
   padding: 0px 0px 10px 0px;
 }
@@ -731,7 +737,7 @@
 .upcont h1 {
   font-size: 20px;
   font-weight: 500;
-  color: #ffff;
+  color: rgb(255, 255, 255);
   text-transform: uppercase;
 }
 .upcont span {
@@ -758,18 +764,18 @@
 }
 .towitem i {
   font-size: 16px;
-  color: #ffff;
+  color: rgb(255, 255, 255);
   margin: 4px 15px 40px 0px;
 }
 .call h1 {
   font-size: 15px;
-  color: #ffff;
+  color: rgb(255, 255, 255);
   font-weight: 400;
   line-height: 20px;
   margin: 0px 0px 0px 0px;
 }
 .call a {
-  color: #ffff;
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 .call h1 a:hover {
@@ -785,7 +791,7 @@
 .quick ul li a {
   font-size: 15px;
   font-weight: 400;
-  color: #ffff;
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 .quick ul li a:hover {
@@ -802,7 +808,7 @@
 .news ul li {
   font-size: 15px;
   font-weight: 400;
-  color: #ffff;
+  color: rgb(255, 255, 255);
   list-style: none;
   margin: 0px 0px 24px 0px;
 }
